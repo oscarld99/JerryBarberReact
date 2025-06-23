@@ -1,6 +1,35 @@
 import React from 'react';
+import ImageCarousel from '../components/ImageCarousel';
 
 const HomePage: React.FC = () => {
+  const carouselImages = [
+    {
+      src: "/henry.jpg",
+      alt: "Jerry McWay - Barber Shop Owner",
+      title: "Jerry McWay - Master Barber"
+    },
+    {
+      src: "/images/camilo.png",
+      alt: "Quality Haircuts",
+      title: "Premium Haircuts & Styling"
+    },
+    {
+      src: "/images/juank.png",
+      alt: "Professional Styling",
+      title: "Professional Hair Styling"
+    },
+    {
+      src: "/images/maryoris.png",
+      alt: "Women's Haircuts",
+      title: "Women's Haircuts"
+    },
+    {
+      src: "/images/manicure.png",
+      alt: "Professional Manicure",
+      title: "Professional Manicure"
+    }
+  ];
+
   return (
     <div className="home-page">
       <div className="hero-section">
@@ -20,6 +49,13 @@ const HomePage: React.FC = () => {
               by implementing cutting-edge artificial intelligence technology to
               offer you the best personalized suggestions.
             </p>
+          </div>
+
+          {/* Image Carousel Section */}
+          <div className="carousel-section">
+            <h2>Our Work</h2>
+            <p>Discover the quality and professionalism we offer in every visit</p>
+            <ImageCarousel images={carouselImages} autoPlay={true} interval={4000} />
           </div>
 
           <div className="features-grid">

@@ -28,7 +28,7 @@ const ServicesPage: React.FC = () => {
         'AI color consulting'
       ],
       price: 'From $35,000',
-      image: '/images/services/haircut.png'
+      image: '/images/maryoris.png'
     },
     {
       id: 3,
