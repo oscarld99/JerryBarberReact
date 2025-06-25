@@ -27,6 +27,21 @@ const HomePage: React.FC = () => {
       src: "/images/manicure.png",
       alt: "Professional Manicure",
       title: "Professional Manicure"
+    },
+    {
+      src: "/images/oscarafro.png",
+      alt: "Professional Haircut",
+      title: "Professional Haircut"
+    },
+    {
+      src: "/images/profe.png",
+      alt: "Professional Haircut",
+      title: "Professional Haircut"
+    },
+    {
+      src: "/images/image1.png",
+      alt: "Women's Haircuts",
+      title: "Women's Haircuts"
     }
   ];
 
